@@ -1,7 +1,7 @@
 # Terraform
 Repo for all terraform related works
 
-# 1. Basics of Terraform:
+## 1. Basics of Terraform:
 - Creating main.tf
 - Add AWS Provider
 - Generate and configure AWS credentials
@@ -21,3 +21,12 @@ Repo for all terraform related works
 - Create a Terraform Cloud workspace
 - Migrate local to remote workspace
 - Move AWS Credentials to Env Vars
+
+## 2. Terraform Provisioning:
+- user_data
+- self
+- null resources
+- local-exec
+- remote-exec
+- connection
+- file
