@@ -74,3 +74,6 @@ Repo for all terraform related works
     - Local values - local.*Name*
     - Child module outputs - module.*Name*
     - Data sources - data.**Data Type**.*Name*
+    - Filesystem and Workspace - path.module, path.root, path.cwd, terraform.workspace
+    - Block-local values - count.index, each.key/value, self.*attribute*
+- Outputs Chaining
