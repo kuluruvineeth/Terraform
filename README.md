@@ -69,8 +69,8 @@ Repo for all terraform related works
 - Local Values(local.<NAME>)
 - Data Sources (data)
 - References to Named Values
-    - Resources - <Resource Type>.<Name>
-    - Input variables - var.<Name>
-    - Local values - local.<Name>
-    - Child module outputs - module.<Name>
-    - Data sources - data.<Data Type>.<Name>
+    - Resources - **Resource Type**.*Name*
+    - Input variables - var.*Name*
+    - Local values - local.*Name*
+    - Child module outputs - module.*Name*
+    - Data sources - data.**Data Type**.*Name*
