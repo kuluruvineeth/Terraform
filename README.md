@@ -30,3 +30,11 @@ Repo for all terraform related works
 - remote-exec
 - connection
 - file
+
+## 3. Terraform Providers:
+- AWS
+- Azure
+- GCP
+- Kubernetes
+- Oracle Cloud Infrastructure
+- Alibaba Cloud
