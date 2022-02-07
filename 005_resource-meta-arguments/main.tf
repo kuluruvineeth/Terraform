@@ -41,6 +41,15 @@ resource "aws_instance" "my_server" {
 #   depends_on = [
 #     aws_s3_bucket.bucket
 #   ]
+
+  lifecycle {
+    ignore_changes = [
+      # Ignore changes to tags, e.g. because a management agent
+      # updates these based on some ruleset managed elsewhere.
+      tags,
+    ]
+    prevent_destroy = true
+  }
 }
 
 # outputting required values in console

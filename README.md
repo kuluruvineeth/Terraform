@@ -86,3 +86,15 @@ Repo for all terraform related works
 - lifecycle
 - provisioner
 - alias
+
+## 7. Expressions
+- Types and Values
+- Strings and Templates
+- References to Values
+- Operators
+- Function Calls
+- Conditional Expressions
+- For Expressions
+- Splat Expressions
+- Dynamic Blocks
+- Type Constraints
