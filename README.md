@@ -77,3 +77,12 @@ Repo for all terraform related works
     - Filesystem and Workspace - path.module, path.root, path.cwd, terraform.workspace
     - Block-local values - count.index, each.key/value, self.*attribute*
 - Outputs Chaining
+
+## 6. Resource Meta-Arguments
+- depends_on
+- count
+- for_each
+- provider
+- lifecycle
+- provisioner
+- alias
