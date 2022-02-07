@@ -38,3 +38,26 @@ Repo for all terraform related works
 - Kubernetes
 - Oracle Cloud Infrastructure
 - Alibaba Cloud
+
+## 4. Terraform Language
+- Hashicorp Configuration files(Terraform files)
+- Terraform Settings
+- Hashicorp Configuration Language
+    - Terraform Language(.tf)
+    - Packer Template(.pkr.hcl)
+    - Vault Policies
+    - Boundary Controllers and Workers(.hcl)
+    - Consul Configuration(.hcl)
+    - Waypoint Application Configuration(.hcl)
+    - Nomad Job Specifications(.nomad)
+    - Shipyard Blueprint(.hcl)
+
+## 5. Variables and Outputs
+- Inputs Variables
+- Variable Definition Files(.tfvars)
+- Variables via Environment Variables(TF_VAR_<name>)
+- Loading Input Variables
+    - terraform.tfvars(autoloaded)
+    - my_variables.tfvars(not autoloaded)
+    - my_variables.auto.tfvars(autoloaded)
+    - (-var-file filename) via Command Line
