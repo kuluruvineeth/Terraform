@@ -53,11 +53,24 @@ Repo for all terraform related works
     - Shipyard Blueprint(.hcl)
 
 ## 5. Variables and Outputs
-- Inputs Variables
-- Variable Definition Files(.tfvars)
-- Variables via Environment Variables(TF_VAR_<name>)
-- Loading Input Variables
-    - terraform.tfvars(autoloaded)
-    - my_variables.tfvars(not autoloaded)
-    - my_variables.auto.tfvars(autoloaded)
-    - (-var-file filename) via Command Line
+- Variables
+    - Inputs Variables
+    - Variable Definition Files(.tfvars)
+    - Variables via Environment Variables(TF_VAR_<name>)
+    - Loading Input Variables
+        - terraform.tfvars(autoloaded)
+        - my_variables.tfvars(not autoloaded)
+        - my_variables.auto.tfvars(autoloaded)
+        - (-var-file filename) via Command Line
+        - (-var single_variable) via Command Line
+    - Env > terraform.tfvars > *.auto.tfvars > -var and -var-file
+- Outputs
+    - terraform output
+- Local Values(local.<NAME>)
+- Data Sources (data)
+- References to Named Values
+    - Resources - <Resource Type>.<Name>
+    - Input variables - var.<Name>
+    - Local values - local.<Name>
+    - Child module outputs - module.<Name>
+    - Data sources - data.<Data Type>.<Name>
