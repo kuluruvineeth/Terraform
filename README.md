@@ -144,3 +144,31 @@ Repo for all terraform related works
 - Write,Plan,Apply.
 - Individual Terraform Workflow
 - Team Terraform Workflow
+
+## 15. Backends
+- Standard backends(only stores state) - aws s3,azurerm,gcs,..
+- Enhanced backends - local,remote(terraform cloud)
+- State locks
+- Standard Backend with Amazon S3
+- Remote backend multiple workspaces
+- terraform_remote_state local
+- terraform_remote_state remote
+- another data source example
+- force-unlock
+- observer sensitive data within the state file
+- terraform ignore file
+
+## 16. Resources and Complex Types
+- Resources
+- Complex Types - (List,Map,Set), (Tuple,Object)
+
+## 17. Built-in Functions
+- Numeric Functions - abs,floor,log,ceil,min,max,parseint,pow,signum.
+- String Functions - chomp,format,formatlist,indent,join,lower,regex,regexall,replace,split,strrev,substr,title,trim,trimprefix,trimsuffix,trimspace,upper.
+- Collection Functions - alltrue,anytrue,chunklist,coalesce,coalescelist,compact,concat,contains,distinct,element,index,flatten,keys,length,lookup,matchkeys,merge,one,range,reverse,setintersection,setproduct,setsubtract,setunion,slice,sort,sum,transpose,values,zipmap.
+- Encoding Functions - base64encode,base64decode,jsonencode,jsondecode,textencodebase64,textdecodebase64,yamlencode,yamldecode,urlencode.
+- Filesystem Functions - abspath,dirname,pathexpand,basename,file,fileexists,fileset,filebase64,templatefile
+- Date and Time Functions - formatdate,timeadd,timestamp.
+- Hash and Crypto Functions - bcrypt,base64sha256,base64sha512,filebase64sha256,filebase64sha512,filemd5,filesha1,filesha256,filesha512,md5,rsadecrypt,sha1,sha256,sha512,uuid,uuidv5.
+- IP Network Functions - cidrhost,cidrnetmask,cidrsubnet, cidrsubnets.
+- Type Conversion Functions - can,defaults,nonsensitive,sensitive,tobool,tomap,toset,tolist,tonumber,tostring,try.
