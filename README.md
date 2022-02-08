@@ -172,3 +172,12 @@ Repo for all terraform related works
 - Hash and Crypto Functions - bcrypt,base64sha256,base64sha512,filebase64sha256,filebase64sha512,filemd5,filesha1,filesha256,filesha512,md5,rsadecrypt,sha1,sha256,sha512,uuid,uuidv5.
 - IP Network Functions - cidrhost,cidrnetmask,cidrsubnet, cidrsubnets.
 - Type Conversion Functions - can,defaults,nonsensitive,sensitive,tobool,tomap,toset,tolist,tonumber,tostring,try.
+
+## 18. Terraform Cloud
+- Manages statefiles,history of runs.
+- variable injection,Tagging,chaining workspaces,Triggers.
+- Global state sharing,NOtifications,MFA,Cost,Integrations.
+- Oranizations > workspaces > teams > runs.
+- vcs workflow,cli workflow,api workflow.
+- Organization level permissions.
+- Workspace level permissions.
