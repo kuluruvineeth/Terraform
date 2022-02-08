@@ -98,3 +98,49 @@ Repo for all terraform related works
 - Splat Expressions
 - Dynamic Blocks
 - Type Constraints
+
+# 8. Terraform State
+- terraform state list
+- terraform state mv
+- terraform state pull
+- terraform state push
+- terraform state replace-provider
+- terraform state rm
+- terraform state show
+- Terraform state backups
+
+## 9. Terraform Init and Get
+- terraform init -upgrade
+- terraform init -get-plugins-false
+- terraform init -plugin-dir=PATH
+- terraform get
+
+## 10. Modifying Commands
+- terraform fmt
+- terraform validate
+- terraform console
+- terraform plan
+- terraform apply
+
+## 11. Infrastructure Drift
+- Replacing Resources - terraform taint(terraform apply -replace="resource_name")
+- Resource Addressing - modules and resources
+- terraform import **RESOURCE_ADDRESS** *ID*
+- terraform refresh(modifies only terrform state file) - replaced by terraform apply -refresh-only -auto-approve
+
+## 12. Terraform Troubleshooting
+- Language errors - terraform fmt,validate,version
+- State errors - terraform refresh,apply,--replace flag
+- Core errors - TF_LOG, Open Github Issue
+- Provider errors - TF_LOG, Open Github Issue
+
+## 13. Terraform Modules
+- Public Modules and Private Modules(hostname/namespace/provider/name)
+- Publishing Modules - terraform-**PROVIDER**-**NAME**
+- Verified Modules
+- Publishing Modules
+
+## 14. Team Workflows
+- Write,Plan,Apply.
+- Individual Terraform Workflow
+- Team Terraform Workflow
