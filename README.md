@@ -181,3 +181,38 @@ Repo for all terraform related works
 - vcs workflow,cli workflow,api workflow.
 - Organization level permissions.
 - Workspace level permissions.
+- Terraform Cloud VCS Driven
+- Terraform Cloud Permissions
+- Terraform Cloud API Token
+- Private Registry
+
+## 19. Terraform Enterprise
+- Architecture - Terraform platform,postgres database,debian distribution,TLS certificate,Cloud storage,Terraform license.
+- Air Gapped Environments.
+
+## 20. Workspaces
+- terraform.workspace
+- Development
+- Production
+- Multiple workspaces are supported by : azurerm,consul,cos,gcs,kubernetes,local,manta,postgres,remote,s3.
+- terraform workspace list,show,select,new,delete
+- Sentinel - policy-as-code framework(important)
+- scm > terraform cloud > plan > sentinel policies > apply > new infrastructure.
+
+## 21. Hashicorp Packer
+- Provisions build image
+- Packer with Terraform
+
+## 22. Terraform and Consul
+- Consul - service networking platform
+
+## 23. Hashicorp Vault
+- Securely accessing secrets
+
+## 24. Atlantis & CDK for Terraform
+- Automate Terraform Pull Requests
+- Cloud Development Kit.
+
+## 25. Gruntwork
+- builds tools that extends or leverages terraform
+- Terragrunt,TerraTest,Gruntwork Pipelines,Gruntwork Landing Zone for AWS, Gruntwork Reference Architecture.
