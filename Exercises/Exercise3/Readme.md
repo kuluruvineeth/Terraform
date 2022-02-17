@@ -1,0 +1,12 @@
+# Exercise 3 - Provisioners
+- Generate key pair
+- Write script
+- Write providers.tf
+- Write vars.tf
+- Write instances.tf
+    - key pair resource
+    - aws_instance resource
+        - provisioners
+            - file
+            - remote-exec
+- Apply Changes
