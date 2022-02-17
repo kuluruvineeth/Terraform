@@ -1,4 +1,4 @@
-# Exercise 2
+# Exercise 2 - Variables
 - Write providers.tf file
 - Write vars.tf file
 - Write instance.tf file
